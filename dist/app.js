@@ -22,6 +22,11 @@ app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).send("Something went wrong!");
 });
+
+app.get("/", (req, res) => {
+    res.send("hello world")
+})
+
 app.listen(3000, () => {
     console.log("Server started on port 3000");
 });
