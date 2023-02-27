@@ -1,5 +1,5 @@
 Hotel Management System
-This is a simple Hotel Management System built with Node.js, Express.js, and MongoDB. The system allows users to manage rooms and room types, and provides authentication and authorization features for admin and guest users.
+This is a simple Hotel Management System built with Typescript, Node.js, Express.js, and MongoDB. The system allows users to manage rooms and room types, and provides authentication and authorization features for admin and guest users.
 
 Prerequisites
 Node.js (v12 or later)
@@ -13,6 +13,7 @@ mongoose
 dotenv
 jsonwebtoken
 joi
+typescript
 Environment variables
 This API requires the following environment variables to be set
 
