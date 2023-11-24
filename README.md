@@ -3,7 +3,7 @@ This is a simple Hotel Management System built with Typescript, Node.js, Express
 
 Prerequisites
 Node.js (v12 or later)
-MongoDB
+MongoDB .
 
 
 Dependencies
